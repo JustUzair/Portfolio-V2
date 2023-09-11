@@ -17,7 +17,26 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={(e) => {
+        return {
+          hidden: {
+            opacity: 1,
+          },
+          show: {
+            x: 0,
+            y: 0,
+            opacity: 1,
+            transition: {
+              type: type,
+              delay: delay,
+              duration: duration,
+              ease: "easeOut",
+            },
+          },
+        };
+      }}
+    >
       <Tilt
         options={{
           max: 45,
