@@ -105,6 +105,16 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li>
+                <a
+                  className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
+                  href="/resume/Uzair Saiyed (SCET, Surat).pdf"
+                  download
+                  type="application/pdf"
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
