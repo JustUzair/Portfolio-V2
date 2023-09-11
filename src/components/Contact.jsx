@@ -136,7 +136,7 @@ const Contact = () => {
         >
           <a
             className="flex items-center justify-center"
-            href="../assets/resume/Uzair Saiyed (SCET, Surat).pdf"
+            href="/resume/Uzair Saiyed (SCET, Surat).pdf"
             download
             type="application/pdf"
           >
