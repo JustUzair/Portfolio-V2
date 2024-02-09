@@ -21,7 +21,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  kubernetes,
+  foundry,
   golang,
   ethereum,
   hardhat,
@@ -81,16 +81,8 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Foundry",
+    icon: foundry,
   },
   {
     name: "golang",
@@ -103,6 +95,18 @@ const technologies = [
   {
     name: "hardhat",
     icon: hardhat,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "React JS",
@@ -124,10 +128,7 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "Kubernetes",
-    icon: kubernetes,
-  },
+
   {
     name: "git",
     icon: git,

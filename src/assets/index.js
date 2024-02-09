@@ -29,7 +29,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import golang from "./tech/golang.png";
-import kubernetes from "./tech/kubernetes.png";
+// import kubernetes from "./tech/kubernetes.png";
+import foundry from "./tech/foundry.png";
 import ethereum from "./tech/ethereum.png";
 import hardhat from "./tech/hardhat.png";
 
@@ -78,7 +79,7 @@ export {
   jobit,
   tripguide,
   golang,
-  kubernetes,
+  foundry,
   ethereum,
   hardhat,
   netflixClone,
