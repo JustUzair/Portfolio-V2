@@ -68,7 +68,7 @@ const Navbar = () => {
           <li>
             <a
               className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
-              href="/resume/Uzair Saiyed (SCET, Surat).pdf"
+              href="/resume/Uzair Saiyed (SCET, India).pdf"
               download
               type="application/pdf"
             >
@@ -108,7 +108,7 @@ const Navbar = () => {
               <li>
                 <a
                   className={`text-secondary hover:text-white text-[18px] font-medium cursor-pointer`}
-                  href="/resume/Uzair Saiyed (SCET, Surat).pdf"
+                  href="/resume/Uzair Saiyed (SCET, India).pdf"
                   download
                   type="application/pdf"
                 >
